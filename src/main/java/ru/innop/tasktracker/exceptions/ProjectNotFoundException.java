@@ -1,2 +1,4 @@
-package ru.innop.tasktracker.exceptions;public class ProjectNotFoundException {
+package ru.innop.tasktracker.exceptions;
+
+public class ProjectNotFoundException extends Exception {
 }
