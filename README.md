@@ -15,5 +15,5 @@ http://localhost:20000/swagger-ui/index.html#/task-controller/deleteTask
 ```
 $ git clone https://github.com/Antony-Sk/Task-Tracker
 $ cd TaskTracker
-$ mvn compile package
+$ docker-compose up
 ```
