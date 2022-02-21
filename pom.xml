@@ -9,14 +9,21 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.innop</groupId>
-    <artifactId>TaskTraker</artifactId>
+    <artifactId>TaskTracker</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>TaskTraker</name>
-    <description>TaskTraker</description>
+    <name>TaskTracker</name>
+    <description>TaskTracker</description>
     <properties>
         <java.version>11</java.version>
     </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-core -->
+        <dependency>
+            <groupId>io.swagger.core.v3</groupId>
+            <artifactId>swagger-core</artifactId>
+            <version>2.1.9</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
