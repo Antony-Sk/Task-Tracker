@@ -10,7 +10,7 @@ Web api for manage your projects and tasks!
  - Lombok
  - Swagger Open API
 ## Documentation
-http://localhost:20000/swagger-ui/index.html#/task-controller/deleteTask
+https://task-tracker-test-task.herokuapp.com/swagger-ui/index.html#/
 ## How to build the project
 ```
 $ git clone https://github.com/Antony-Sk/Task-Tracker
